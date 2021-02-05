@@ -13,6 +13,8 @@
 		07EC40F725CBE25700583E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EC40F625CBE25700583E0D /* Assets.xcassets */; };
 		07EC40FA25CBE25700583E0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EC40F925CBE25700583E0D /* Preview Assets.xcassets */; };
 		07EC40FD25CBE25700583E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EC40FB25CBE25700583E0D /* LaunchScreen.storyboard */; };
+		07EC410825CBE2A800583E0D /* Covid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC410725CBE2A800583E0D /* Covid.swift */; };
+		07EC410B25CBE62D00583E0D /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC410A25CBE62D00583E0D /* ApiServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		07EC40F925CBE25700583E0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07EC40FC25CBE25700583E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07EC40FE25CBE25700583E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EC410725CBE2A800583E0D /* Covid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid.swift; sourceTree = "<group>"; };
+		07EC410A25CBE62D00583E0D /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		07EC40EF25CBE25100583E0D /* FetchJSONCovid */ = {
 			isa = PBXGroup;
 			children = (
+				07EC410625CBE27D00583E0D /* Web Service */,
+				07EC410525CBE27800583E0D /* Model */,
 				07EC40F025CBE25100583E0D /* AppDelegate.swift */,
 				07EC40F225CBE25100583E0D /* SceneDelegate.swift */,
 				07EC40F425CBE25100583E0D /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				07EC40F925CBE25700583E0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07EC410525CBE27800583E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07EC410725CBE2A800583E0D /* Covid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07EC410625CBE27D00583E0D /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				07EC410A25CBE62D00583E0D /* ApiServices.swift */,
+			);
+			path = "Web Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +170,8 @@
 				07EC40F125CBE25100583E0D /* AppDelegate.swift in Sources */,
 				07EC40F325CBE25100583E0D /* SceneDelegate.swift in Sources */,
 				07EC40F525CBE25100583E0D /* ContentView.swift in Sources */,
+				07EC410825CBE2A800583E0D /* Covid.swift in Sources */,
+				07EC410B25CBE62D00583E0D /* ApiServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
